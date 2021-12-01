@@ -46,7 +46,7 @@ apikey = st.text_input('Ingresa tu apikey', value="", type="password")
 url = st.text_input('y tu url', value="", type="password")
 
 
-voces = ('es-US_SofiaV3Voice', 'es-LA_SofiaV3Voice', 'es-ES_EnriqueV3Voice', 'es-ES_LauraV3Voice', 'es-ES_EnriqueVoice')
+voces = ('es-LA_SofiaV3Voice', 'es-ES_EnriqueV3Voice', 'es-ES_LauraV3Voice')
 
 voice = st.sidebar.selectbox(
     "Qué voz en español deseas usar?",
