@@ -43,10 +43,7 @@ st.header("TTS IBM testing")
 
 
 apikey = st.text_input('Ingresa tu apikey', value="", type="password")
-url = st.text_input('y tu url', value="", type="password")
-
-
-voces = ('es-LA_SofiaV3Voice', 'es-ES_EnriqueV3Voice', 'es-ES_LauraV3Voice')
+url = st.text_input('y tu'es-ES_EnriqueV3Voice', url', value="", type="( 'es-ES_EnriqueV3Voice','es-LA_SofiaV3Voice', 'es-ES_LauraV3Voice')
 
 voice = st.sidebar.selectbox(
     "Qué voz en español deseas usar?",
